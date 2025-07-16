@@ -7,6 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1ww1vh0P1l8XGWQf-G7wk3OLGK1It3qO-
 """
 
+!pip install ultralytics
+
+!pip install deep-sort-realtime
+
 import cv2
 import numpy as np
 from ultralytics import YOLO
@@ -184,6 +188,3 @@ run_full_tracking_pipeline(
     output_suffix="reid_final"
 )
 
-!pip install ultralytics
-
-!pip install deep-sort-realtime
